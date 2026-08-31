@@ -1,39 +1,36 @@
-# Project Name
+# ProvaUI
 
-ProvaUI is a minecraft ui pack inspired by Phrolova from wuwa game.
-The ui pack's development is slow af and also expect bugs, frame drops etc
-But i will try my best.
+**ProvaUI** is a Minecraft Bedrock UI pack inspired by Phrolova from *Wuthering Waves*. 
 
----
-
-- **Status:** In Development
-- **Target Platform:** Bedrock UI / Mobile
-
-## How to Test / Run
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/kitsunee02/provaUI.git
-   cd provaUI
-   rm *.mp4
-   zip -r ../provaUI.mcpack .
+> ⚠️ Development is currently slow and you should expect bugs or frame drops, but I am actively working on improving it!
 
 ---
 
-## Animation
+## Project Status
 
+- **Status:** 🟡 In Development
+- **Target Platform:** Minecraft Bedrock Edition (Mobile / Touch UI)
+
+---
+
+## Visual Comparison
+
+### Current Behavior
 <video src="current.mp4" controls="controls" width="100%">
   Your browser does not support the video tag.
 </video>
 
----
-
-## Animation that i wanted
-
+### Target Behavior
 <video src="video.mp4" controls="controls" width="100%">
   Your browser does not support the video tag.
 </video>
 
-- Because of lack of skill and knowlegde i couldn't get what i wanted
+*Note: Due to Bedrock UI engine limitations and current technical constraints, reaching the target animation loop is an active work-in-progress.*
 
+---
 
+## How to Test & Install
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/kitsunee02/provaUI.git](https://github.com/kitsunee02/provaUI.git)
