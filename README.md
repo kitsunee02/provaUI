@@ -16,16 +16,12 @@
 ## Visual Comparison
 
 ### Current Behavior
-<video src="current.mp4" controls="controls" width="100%">
-  Your browser does not support the video tag.
-</video>
+▶️ [Watch Current Behavior Video](current.mp4)
 
 ### Target Behavior
-<video src="video.mp4" controls="controls" width="100%">
-  Your browser does not support the video tag.
-</video>
+▶️ [Watch Target Behavior Video](video.mp4)
 
-*Note: Due to Bedrock UI engine limitations and current technical constraints, reaching the target animation loop is an active work-in-progress.*
+*Note: Due to lack of skills and knowlegde and bedrock UI engine, reaching the target animation loop is an active work-in-progress.*
 
 ---
 
@@ -34,3 +30,6 @@
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/kitsunee02/provaUI.git](https://github.com/kitsunee02/provaUI.git)
+   cd provaUi
+   rm *.mp4
+   zip -r ../provaUI.mcpack .
