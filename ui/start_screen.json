@@ -1,0 +1,6 @@
+{
+	"namespace": "start",
+    "start_screen@common.base_screen": {
+       "$screen_bg_content": "prova_bg.prova_bg_panel"
+    }
+}
