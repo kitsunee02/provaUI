@@ -588,6 +588,26 @@
               "0108@prova_bg.prova_bg_path": {
                 "$prova_frame": "frame_0109"
               }
+            },
+            {
+              "0109@prova_bg.prova_bg_path": {
+                "$prova_frame": "frame_0110"
+              }
+            },
+            {
+              "0110@prova_bg.prova_bg_path": {
+                "$prova_frame": "frame_0111"
+              }
+            },
+            {
+              "0111@prova_bg.prova_bg_path": {
+                "$prova_frame": "frame_0112"
+              }
+            },
+            {
+              "0112@prova_bg.prova_bg_path": {
+                "$prova_frame": "frame_0113"
+              }
             }
           ]
         }
@@ -1354,6 +1374,34 @@
     "$prova_bg_offset": [
       0,
       "-10800%"
+    ],
+    "next": "@prova_bg.prova_frame_0109"
+  },
+  "prova_frame_0109@prova_bg.prova_bg_anim": {
+    "$prova_bg_offset": [
+      0,
+      "-10900%"
+    ],
+    "next": "@prova_bg.prova_frame_0110"
+  },
+  "prova_frame_0110@prova_bg.prova_bg_anim": {
+    "$prova_bg_offset": [
+      0,
+      "-11000%"
+    ],
+    "next": "@prova_bg.prova_frame_0111"
+  },
+  "prova_frame_0111@prova_bg.prova_bg_anim": {
+    "$prova_bg_offset": [
+      0,
+      "-11100%"
+    ],
+    "next": "@prova_bg.prova_frame_0112"
+  },
+  "prova_frame_0112@prova_bg.prova_bg_anim": {
+    "$prova_bg_offset": [
+      0,
+      "-11200%"
     ],
     "next": "@prova_bg.prova_frame_0000"
   }
