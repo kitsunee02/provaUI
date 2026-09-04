@@ -13,23 +13,9 @@
 
 ---
 
-## Visual Comparison
-
-### Current Behavior
-▶️ [Watch Current Behavior Video](current.mp4)
-
-### Target Behavior
-▶️ [Watch Target Behavior Video](video.mp4)
+### DEMO
+▶️ ![DEMO VIDEO](demo.gif)
 
 *Note: Due to lack of skills and knowlegde and bedrock UI engine, reaching the target animation loop is an active work-in-progress.*
 
 ---
-
-## How to Test & Install
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/kitsunee02/provaUI.git](https://github.com/kitsunee02/provaUI.git)
-   cd provaUi
-   rm *.mp4
-   zip -r ../provaUI.mcpack .
