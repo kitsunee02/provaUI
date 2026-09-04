@@ -14,7 +14,8 @@
 ---
 
 ### DEMO
-▶️ ![DEMO VIDEO](demo.gif)
+<img width="800" height="450" alt="demo" src="https://github.com/user-attachments/assets/e7a2c9ba-d425-41fd-b671-d923b4db0854" />
+
 
 *Note: Due to lack of skills and knowlegde and bedrock UI engine, reaching the target animation loop is an active work-in-progress.*
 
