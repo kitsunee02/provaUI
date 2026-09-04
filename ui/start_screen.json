@@ -3,6 +3,108 @@
 
   "start_screen@common.base_screen": {
     "$screen_bg_content": "prova_bg.prova_bg_panel",
+    "$screen_content": "start.prova_start_content"
+  },
+
+  "prova_start_content": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {
+        "menu@start.prova_menu": {}
+      },
+      {
+        "info@start.prova_info": {}
+      }
+    ]
+  },
+
+  "prova_menu": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [ 180, "100%c" ],
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "offset": [ 0, 0 ],
+    "controls": [
+      {
+        "play_button@start.prova_text_button": {
+          "$pressed_button_name": "$play_button_target",
+          "$button_text": "Play"
+        }
+      },
+      {
+        "settings_button@start.prova_text_button": {
+          "$pressed_button_name": "button.menu_settings",
+          "$button_text": "Settings"
+        }
+      },
+      {
+        "marketplace_button@start.prova_text_button": {
+          "$pressed_button_name": "button.menu_store",
+          "$button_text": "Store"
+        }
+      },
+      {
+        "profile_button@start.prova_text_button": {
+          "$pressed_button_name": "button.to_profile_screen",
+          "$button_text": "Profile"
+        }
+      }
+    ]
+  },
+
+  "prova_text_button@common.button": {
+    "size": [ 180, 20 ],
+    "controls": [
+      {
+        "default_text": {
+          "type": "label",
+          "text": "$button_text",
+          "color": [ 1.0, 1.0, 1.0 ],
+          "font_size": "normal",
+          "font_scale_factor": 1.1,
+          "shadow": true,
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "text_alignment": "left"
+        }
+      }
+    ],
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "$pressed_button_name",
+        "mapping_type": "pressed"
+      },
+      {
+        "from_button_id": "button.menu_ok",
+        "to_button_id": "$pressed_button_name",
+        "mapping_type": "pressed"
+      }
+    ]
+  },
+
+  "prova_info": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [ 180, "15" ],
+    "anchor_from": "bottom_right",
+    "anchor_to": "bottom_right",
+    "offset": [ -4, -4 ],
+    "controls": [
+      {
+        "pack_name_and_name": {
+          "type": "label",
+          "size": [ 180, 20 ],
+          "text": "ProvaUI v0.1.7-alpha",
+          "text_alignment": "right",
+          "font_size": "normal",
+          "font_scale_factor": 0.9,
+          "shadow": true,
+          "color": "$main_header_text_color"
+        }
+      }
+    ]
   }
 }
-
