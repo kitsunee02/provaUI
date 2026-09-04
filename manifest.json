@@ -5,14 +5,14 @@
     "name": "Prova UI",
     "description": "UI pack inspired by Phrolova - Wuthering waves",
     "uuid": "06624afd-8f06-4198-92bf-ab27c99f6fdc",
-    "version": [0,1,6],
+    "version": [0,1,7],
     "min_engine_version": [1,20,0]
   },
   "modules": [
     {
       "type": "resources",
       "uuid": "15bc270d-2408-46f4-a9ad-763807ba5166",
-      "version": [0,1,6]
+      "version": [0,1,7]
     }
   ]
 }
